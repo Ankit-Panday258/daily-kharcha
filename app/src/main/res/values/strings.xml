@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Daily Kharcha</string>
+    <string name="app_subtitle">Apna Kharcha Track Karein</string>
+    <string name="currency_symbol">₹</string>
+</resources>
