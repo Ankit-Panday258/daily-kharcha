@@ -1,5 +1,11 @@
 # Daily Kharcha (दैनिक खर्चा) 💰
 
+
+[Download the verified debug APK](apk/Daily-Kharcha-debug.apk?raw=true)
+
+The included APK supports Android 7.0 and later. Build and 16 unit tests passed. It was installed and launched with an empty diary on an Android 13 emulator. See [setup and verification details](LOCAL-SETUP.md). Physical-phone and full interaction testing for this version remain pending.
+
+
 > **Apna Kharcha Track Karein** - A modern, fast, 100% offline native Android expense tracking application designed specifically for Indian users.
 
 ---
@@ -102,8 +108,8 @@ app/src/main/java/com/dailykharcha/app/
 ### Option A: Using Android Studio (Recommended)
 
 1. Open **Android Studio** (Koala / Ladybug / Iguana or later).
-2. Click **Open** and select the `/Users/ankitpandey/Downloads/day_11_ai` folder.
-3. Android Studio will automatically recognize the Gradle project and download the dependencies.
+2. Click **Open** and select this project folder containing `settings.gradle.kts`.
+3. Set the project Gradle JDK to **JDK 17**, install **Android SDK Platform 34** and **Build-Tools 34.0.0**, then sync. This checkout uses the included **Gradle 8.9** wrapper. The first build downloads dependencies.
 4. Connect an Android device (via USB with USB Debugging enabled) or start an Android Virtual Device (AVD).
 5. Click the green **Run (▶)** button or press `Shift + F10`.
 
